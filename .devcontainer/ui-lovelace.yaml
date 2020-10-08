@@ -1,9 +1,9 @@
 resources:
-  - url: http://127.0.0.1:5000/boilerplate-card.js
+  - url: http://127.0.0.1:5000/apple-tv-remote.js
     type: module
 views:
   - cards:
-      - type: custom:boilerplate-card
-        name: Boilerplate Card Development
-        entity: sun.sun
+      - type: custom:apple-tv-remote
+        name: Apple TV Remote Development
+        entity: null
         test_gui: true
